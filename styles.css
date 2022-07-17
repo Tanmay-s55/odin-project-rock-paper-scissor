@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+#game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 5em;
+}
+
+#main-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFDAAF;
+    border-radius: 2em;
+    margin: 2em 0;
+    padding: 2em 5em;
+    width: 50vw;
+    height: 50vh;
+}
+
+#player-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.player-div{
+    padding: 2em 2em;
+    margin-top: 2em;
+}
+
+.option-container{
+    display: flex;
+}
+.round-result{
+    text-align: center;
+}
+
+.game-btn{
+    width: 5vw;
+    margin: 0.5em 0.5em;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #CA82FF;
+}
+
+#reset-btn{
+    width: 8vw;
+    padding: 10px;
+    background-color: #F90716;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.selected-btn{
+    border: 3px solid #590696;
+}
